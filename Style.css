@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0.10turn, #b8e9fd, #e6dec4 );
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    
+    box-shadow: 5px 5px 80px #0f4596;
+    background-color: rgba(17, 17, 17, 0.884);
+    padding: 50px;
+}
+footer {
+    background-color: rgba(17, 17, 17, 0.884);
+    padding: 35px;
+    
+    width: 100%;
+    bottom: 0;
+   
+    box-shadow: 5px 5px 80px #0f4596;
+    position: fixed;
+    text-align: center;
+}
+
+
+#tenis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+#tenis div {
+    
+   background: #f8f3e1;
+   width: 250px;
+   text-align: center;
+   border-radius: 30px;
+   padding: 10px;
+}
+
+#tenis img {
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    height: 200px;
+    width: 200px;
+   
+}
+
+
+#tenis p {
+    margin: 5px 0;
+}
+
+
+#tenis  button:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+
+
+
+#tenis button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+ 
+}
+
+#logo{
+    position: absolute;
+    margin-top: -60px;
+    width: 150px;
+
+    margin-left: 30px;
+}
